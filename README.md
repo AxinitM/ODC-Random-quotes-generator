@@ -32,7 +32,6 @@ If an error occurs while fetching the quote, an error message is displayed. The 
 
 If the API returns a request limit exceeded message, the quote text changes to inform about the need to purchase a key or wait 30 seconds. For better readability, this message is displayed using the main font (var(--mainFontFamily)).
 
-The page is adapted for screens 470 pixels and smaller.
 ## Author
 
 [Andrei Martinenko](https://github.com/AxinitM)
