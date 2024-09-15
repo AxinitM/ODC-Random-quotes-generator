@@ -16,7 +16,7 @@ The page was created as part of the [Front End Developer Course by Orange DC](ht
 
 ## Links
 
-[Random quotes generator Page]()
+[Random quotes generator Page](https://axinitm.github.io/ODC-Random-quotes-generator/)
 
 ## Tasks
 Create a page with a quote generator. 
