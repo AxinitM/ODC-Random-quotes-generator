@@ -110,7 +110,13 @@ button:hover {
   color: var(--linkColor);
 }
 
+/* @media for small screens */
+
 @media (max-width: 470px) {
+  body {
+    overflow: hidden;
+  }
+ 
   header {
     margin-bottom: 50px;
   }
