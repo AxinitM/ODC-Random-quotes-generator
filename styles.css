@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+:root {
+  /* colors */
+  --bgMainColor: #a1c4fd80;
+  --whiteColor: #fff;
+  --blackColor: #000;
+  --authorNameColor: #808080;
+  --buttonColor: #007bff;
+  --buttonHover: #006400;
+  --boxShadowColor: #0000004d;
+  --linkColor: #000080;
+
+  /* fonts */
+  --mainFontFamily: "Work Sans", sans-serif;
+  --QuoteHandWritingFont: "Courgette", sans-serif;
+}
+
+/* General sets  */
+
+body {
+  font-family: var(--mainFontFamily);
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bgMainColor);
+  color: var(--blackColor);
+}
+
+/* Header h1 section */
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  text-align: center;
+}
+
+/* Main section */
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-container {
+  text-align: center;
+  background-color: var(--whiteColor);
+  max-width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px var(--boxShadowColor);
+}
+
+#quote {
+  font-size: 1.8rem;
+  margin: 25px;
+  font-family: var(--mainFontFamily);
+}
+
+#author {
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--authorNameColor);
+  margin-bottom: 20px;
+}
+
+/*  Button section */
+
+button {
+  font-family: var(--mainFontFamily);
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  background-color: var(--buttonColor);
+  color: var(--whiteColor);
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--buttonHover);
+}
+
+/* Source link sets */
+
+.sourceLink {
+  font-size: 0.8rem;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.sourceLink a {
+  text-decoration: none;
+  color: var(--linkColor);
+}
+
+@media (max-width: 470px) {
+  header {
+    margin-bottom: 50px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  #quote {
+    padding: 15px;
+    font-size: 1.6rem;
+  }
+
+  #author {
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+}
