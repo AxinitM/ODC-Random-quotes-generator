@@ -4,18 +4,15 @@ The page was created as part of the [Front End Developer Course by Orange DC](ht
 
 ## Table of contents
 
-
-- [Random quotes generator](#random-quotes-generator)
-  - [Table of contents](#table-of-contents)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Tasks](#tasks)
-  - [Random Quote Generator Description](#random-quote-generator-description)
-  - [Author](#author)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Tasks](#tasks)
+- [Random Quote Generator Description](#random-quote-generator-description)
+- [Author](#author)
 
 ## Screenshot
 
-![](./image/screenshot.png)
+![](/image/screenshot.png)
 
 ## Links
 
