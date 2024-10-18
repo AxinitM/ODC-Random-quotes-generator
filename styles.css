@@ -139,9 +139,15 @@ button:hover {
   button {
     font-size: 0.9rem;
     padding: 8px 15px;
+    background-color: var(--buttonColor); 
+    transition: background-color 0.3s ease;
   }
 
-    button:hover {
+  button:active {
+    background-color: var(--buttonHover); 
+  }
+
+  button:hover {
     background-color: var(--buttonColor);
   }
 }
