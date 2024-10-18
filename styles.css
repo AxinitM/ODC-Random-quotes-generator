@@ -114,8 +114,8 @@ button:hover {
 
 @media (max-width: 480px) {
   body {
-    overflow: hidden;
-    height: 100%;
+/*     overflow: hidden;
+    height: 100%; */
   }
  
   header {
