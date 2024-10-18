@@ -112,9 +112,10 @@ button:hover {
 
 /* @media for small screens */
 
-@media (max-width: 470px) {
+@media (max-width: 480px) {
   body {
     overflow: hidden;
+    height: 100%;
   }
  
   header {
