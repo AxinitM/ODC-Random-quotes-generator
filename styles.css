@@ -1,159 +1,153 @@
-  @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
-      @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 
-      :root {
-        /* colors */
-        --bgMainColor: #a1c4fd80;
-        --whiteColor: #fff;
-        --blackColor: #000;
-        --authorNameColor: #808080;
-        --buttonColor: #007bff;
-        --buttonHover: #006400;
-        --boxShadowColor: #0000004d;
-        --linkColor: #000080;
+:root {
+  /* colors */
+  --bgMainColor: #a1c4fd80;
+  --whiteColor: #fff;
+  --blackColor: #000;
+  --authorNameColor: #808080;
+  --buttonColor: #007bff;
+  --buttonHover: #006400;
+  --boxShadowColor: #0000004d;
+  --linkColor: #000080;
 
-        /* fonts */
-        --mainFontFamily: "Work Sans", sans-serif;
-        --QuoteHandWritingFont: "Courgette", sans-serif;
-      }
+  /* fonts */
+  --mainFontFamily: "Work Sans", sans-serif;
+  --QuoteHandWritingFont: "Courgette", sans-serif;
+}
 
-      /* General sets  */
+/* General sets  */
 
-      body {
-        font-family: var(--mainFontFamily);
-        font-size: 16px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        height: 100vh;
-        margin: 0;
-        padding: 0;
-        background-color: var(--bgMainColor);
-        color: var(--blackColor);
-      }
+body {
+  font-family: var(--mainFontFamily);
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bgMainColor);
+  color: var(--blackColor);
+}
 
-      /* Header h1 section */
+/* Header h1 section */
 
-      header {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 80px;
-      }
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
 
-      h1 {
-        font-size: 2.5rem;
-        margin: 0;
-        text-align: center;
-      }
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  text-align: center;
+}
 
-      /* Main section */
+/* Main section */
 
-      main {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-      }
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
-      .quote-container {
-        text-align: center;
-        background-color: var(--whiteColor);
-        max-width: 80%;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 4px 10px var(--boxShadowColor);
-      }
+.quote-container {
+  text-align: center;
+  background-color: var(--whiteColor);
+  max-width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px var(--boxShadowColor);
+}
 
-      #quote {
-        font-size: 1.8rem;
-        margin: 25px;
-        font-family: var(--mainFontFamily);
-      }
+#quote {
+  font-size: 1.8rem;
+  margin: 25px;
+  font-family: var(--mainFontFamily);
+}
 
-      #author {
-        font-style: italic;
-        font-size: 1rem;
-        color: var(--authorNameColor);
-        margin-bottom: 20px;
-      }
+#author {
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--authorNameColor);
+  margin-bottom: 20px;
+}
 
-      /*  Button section */
+/*  Button section */
 
-      button {
-        font-family: var(--mainFontFamily);
-        padding: 10px 20px;
-        margin: 10px;
-        border: none;
-        background-color: var(--buttonColor);
-        color: var(--whiteColor);
-        font-size: 1rem;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: transform 0.2s ease box-shadow 0.2s ease background-color
-          0.2s ease;
-      }
+button {
+  font-family: var(--mainFontFamily);
+  padding: 10px 20px;
+  margin: 10px;
+  border: 1px solid var(--buttonColor);
+  background-color: var(--buttonColor);
+  color: var(--whiteColor);
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease box-shadow 0.2s ease background-color 0.2s
+    ease;
+}
 
-      button:active {
-        transform: scale(0.95);
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-      }
+button:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
 
-      /* copy-button button sets */
-      #copy-button {
-        background-color: var(--whiteColor);
-        color: var(--buttonColor);
-        border: 1px solid var(--buttonColor);
-        font-weight: 500;
-      }
+/* copy-button button sets */
+#copy-button {
+  background-color: var(--whiteColor);
+  color: var(--buttonColor);
+  font-weight: 500;
+}
 
-      /* Source link sets */
+/* Source link sets */
 
-      .sourceLink {
-        font-size: 0.8rem;
-        margin-top: 25px;
-        text-align: center;
-      }
+.sourceLink {
+  font-size: 0.8rem;
+  margin-top: 25px;
+  text-align: center;
+}
 
-      .sourceLink a {
-        text-decoration: none;
-        color: var(--linkColor);
-      }
+.sourceLink a {
+  text-decoration: none;
+  color: var(--linkColor);
+}
 
-      /* @media for small screens */
+/* @media for small screens */
 
-      @media (max-width: 480px) {
-        body {
-          margin-top: -50px;
-          /*     overflow: hidden;
-    height: 100%; */
-        }
+@media (max-width: 480px) {
+  body {
+    
+        overflow: hidden;
+height: 100%;
+  }
 
-        header {
-          margin-bottom: 50px;
-        }
+  header {
+    margin-bottom: 50px;
+  }
 
-        h1 {
-          font-size: 2rem;
-          margin: 20px;
-        }
+  h1 {
+    font-size: 2rem;
+    margin: 20px;
+  }
 
-        #quote {
-          padding: 15px;
-          font-size: 1.6rem;
-        }
+  #quote {
+    padding: 15px;
+    font-size: 1.6rem;
+  }
 
-        #author {
-          font-size: 1rem;
-        }
+  #author {
+    font-size: 1rem;
+  }
 
-        button {
-          font-size: 0.9rem;
-          padding: 8px 15px;
-          background-color: var(--buttonColor);
-        }
-
-        button:active {
-          background-color: var(--buttonHover);
-        }
-      }
+  button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+}
