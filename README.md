@@ -35,5 +35,6 @@ If the API returns a request limit exceeded message, the quote text changes to i
 ## Author
 
 GitHub: [Andrei Martinenko](https://github.com/AxinitM)
+
 Web-site: [Andrei Martinenko](https://www.frontender.biz/)
-https://www.frontender.biz/
+
