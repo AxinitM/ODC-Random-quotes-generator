@@ -13,7 +13,7 @@
           ) {
             document.getElementById(
               "quote"
-            ).textContent = `Too many requests. Buy an auth key for unlimited access, or wait 30 seconds and press the button again!`;
+            ).textContent = `Too many requests. Please wait 30 seconds and press the button again!`;
 
             // Setting font and font-size for "Too many requests" message
             document.getElementById("quote").style.fontFamily =
