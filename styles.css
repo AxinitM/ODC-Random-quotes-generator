@@ -207,8 +207,8 @@ footer {
 /* @media tablet screen sets */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   body {
-    /* min-height: 100vh;
-      overflow-y: auto; */
+    min-height: 100vh;
+      overflow-y: auto;
   }
 
   h1 {
