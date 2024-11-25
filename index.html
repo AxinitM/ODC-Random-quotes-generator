@@ -3,16 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Random quotes generator</title>
+    <title>Famous Quotes Collection</title>
     <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
+    <style></style>
   </head>
+
   <body>
-     <header>
-      <h1>Random quotes generator</h1>
+    <header>
+      <h1>Famous Quotes Collection</h1>
     </header>
 
     <main>
+      <!-- radio buttons for translating -->
+      <div id="translate-section">
+        <form action="#">
+          <label for="en">
+            <input
+              type="radio"
+              id="en"
+              name="translate-buttons"
+              value="en"
+              checked
+            />
+            <span>En</span></label
+          >
+
+          <label for="de">
+            <input type="radio" id="de" name="translate-buttons" value="de" />
+            <span>De</span></label
+          >
+
+          <label for="ro">
+            <input type="radio" id="ro" name="translate-buttons" value="ro" />
+            <span>Ro</span></label
+          >
+
+          <label for="ru">
+            <input type="radio" id="ru" name="translate-buttons" value="ru" />
+            <span>Ru</span></label
+          >
+        </form>
+      </div>
+
       <div class="quote-container">
         <p id="quote">Click the button to get a new quote!</p>
         <p id="author"></p>
@@ -22,12 +61,16 @@
     </main>
 
     <footer>
-      <p class="sourceLink">
+      <p class="source-link">
         Inspirational quotes provided by
         <a href="https://zenquotes.io/" target="_blank">ZenQuotes API</a>
       </p>
+      <p class="source-link">
+        Quotes translated by
+        <a href="https://www.deepl.com/en/pro-api" target="_blank">DeepL API</a>
+      </p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
   </body>
 </html>
