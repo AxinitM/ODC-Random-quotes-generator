@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
           translateQuote(currentLanguage);
           updateQuoteStyles({
             fontFamily: "var(--quoteHandWritingFont)",
-            fontSize: "1.4em",
+            fontSize: "1.2em",
           });
         }
       }
