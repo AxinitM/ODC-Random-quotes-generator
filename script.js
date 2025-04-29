@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
         displayQuote(currentQuote, currentAuthor, false);
         updateQuoteStyles({
           fontFamily: "var(--mainFontFamily)",
-          fontSize: "1em",
+          fontSize: "1.2em",
         });
       } else {
         currentQuote = quoteData.q;
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
       displayQuote(currentQuote, currentAuthor, false);
       updateQuoteStyles({
         fontFamily: "var(--mainFontFamily)",
-        fontSize: "1em",
+        fontSize: "1.2em",
       });
     }
   }
