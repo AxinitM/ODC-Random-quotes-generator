@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
           displayQuote(currentQuote, currentAuthor);
           updateQuoteStyles({
             fontFamily: "var(--quoteHandWritingFont)",
-            fontSize: "1.4em",
+            fontSize: "1.2em",
           });
         } else {
           translateQuote(currentLanguage);
@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function () {
       return;
     }
 
-    const apiKey = "70cec277-c706-4d31-a510-2ecabd6d9a06:fx";
+    const apiKey = "7505082c-61a4-45af-a047-b885a2ded6ea:fx";
     const apiURL = "https://api-free.deepl.com/v2/translate";
 
     try {
